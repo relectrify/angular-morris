@@ -425,7 +425,9 @@
 
                         // if (typeof scope.lineYkeys === 'string')
                         //     scope.lineYkeys = JSON.parse(scope.lineYkeys);
-
+                        
+                        if (typeof scope.linehideHover === 'string')
+                            scope.linehideHover = JSON.parse(scope.linehideHover);
                         if (typeof scope.lineLabels === 'string')
                             scope.lineLabels = JSON.parse(scope.lineLabels);
                         if (typeof scope.lineColors === 'string')
