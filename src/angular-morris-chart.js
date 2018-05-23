@@ -385,6 +385,8 @@
                                 scope.lineColors = JSON.parse(scope.lineColors);
                             if (typeof scope.parseTime === 'boolean')
                                 scope.parseTime = JSON.parse(scope.parseTime);
+                            if (typeof scope.linehideHover === 'string')
+                                scope.linehideHover = JSON.parse(scope.linehideHover);
 
                             if (!scope.lineInstance) {
                                 // Default options
