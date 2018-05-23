@@ -394,7 +394,7 @@
                                     element: elem,
                                     lineColors: scope.lineColors || ['#0b62a4', '#7a92a3', '#4da74d', '#afd8f8', '#edc240', '#cb4b4b', '#9440ed'],
                                     parseTime: scope.parseTime,
-                                    hideHover: scope.linehideHover
+                                    hideHover: "always"
                                 }, OPTION_KEYS, 'line', scope);
 
                                 // Checks if there are angular filters available for certain options
